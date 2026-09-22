@@ -1,4 +1,4 @@
-# Concept: class and instance
+# Concept : class and instance
 class Dog:
     def bark(self):
         print("Woof!")
