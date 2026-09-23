@@ -1,0 +1,63 @@
+# ==========================================
+# Python Core & Byte-compiled files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python-version
+
+# ==========================================
+# Virtual Environments (Crucial for FastAPI)
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+dist/
+build/
+*.egg-info/
+
+# ==========================================
+# Environment Variables & Secrets (NEVER COMMIT)
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==========================================
+# Database & Cache files (SQLite / FastAPi Cache)
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# Application Logs
+# ==========================================
+logs/
+*.log
+
+# ==========================================
+# IDEs and Editors
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+.DS_Store
+Thumbs.db
